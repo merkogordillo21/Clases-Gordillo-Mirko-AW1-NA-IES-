@@ -25,7 +25,7 @@ pnpm -v
 pn -v
 
 ### Inicializar proyecto
-
+ 
 Recordar estar en la carpeta del proyecto
 
 pn init
