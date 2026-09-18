@@ -1,0 +1,144 @@
+
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2d3748;
+    background-color: #f7fafc;
+}
+
+h1, h2, h3 {
+    color: #1a365d;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 1rem 2rem;
+}
+
+.site-main {
+    max-width: 800px;
+    margin: 2.5rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cta-container {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #1a365d;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+
+
+header.site-header nav.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header.site-header ul.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header.site-header ul.nav-list li a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+main.site-main section {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #edf2f7;
+}
+
+main.site-main ul.services-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+main.site-main ul.services-list li {
+    margin-bottom: 0.5rem;
+}
+
+
+div.cta-container a.cta-button {
+    display: inline-block;
+    background-color: #2b6cb0;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+div.cta-container a.cta-button:hover {
+    background-color: #2c5282;
+}
+
+form.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+div.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+div.form-group input, 
+div.form-group select, 
+div.form-group textarea {
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+button.submit-button {
+    display: inline-block;
+    background-color: #2b6cb0;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button.submit-button:hover {
+    background-color: #2c5282;
+}
