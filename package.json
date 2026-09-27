@@ -1,0 +1,25 @@
+{
+  "name": "Clases-Gordillo-Mirko-AW1-NA-IES-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "Dev":"five-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.4.2",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.4.2",
+  "type": "module",
+  "dependencies": {
+    "five-server": "^0.5.0"
+  }
+}
+ 
