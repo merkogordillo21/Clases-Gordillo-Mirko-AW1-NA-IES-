@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(./fuentes/Sora-Regular.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: #2e5e4e;
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav a,
+header a,
+footer a {
+    color: inherit;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.principal {
+    padding: 2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.pie {
+    padding: 1rem 2rem;
+    text-align: center;
+}
